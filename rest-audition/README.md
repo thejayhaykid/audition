@@ -1,16 +1,16 @@
 # REST API
-Using Spring Boot or your API framework of choice. Create a REST API that implements the following...
+Using an API framework of your choice. Create a REST API that implements the following...
 
 ## Domain
-Create a REST API that models a *library*.  
+Create a REST API that models a *library*.
 
-A *library* is a simple a collection of *books*. 
+A *library* is a simple a collection of *books*.
 
 A *book* has the following properties:
 * ISBN (10-13 Digits)
 * Title (Alphanumeric, Spaces and Special Characters Allowed)
-* Author 
-* Genre ( Nonfiction | Fiction ) 
+* Author
+* Genre ( Nonfiction | Fiction )
 
 A *book* has an *Author*.
 
@@ -31,5 +31,3 @@ An *Author* has the following properties:
 
 ## Implementation
 Feel free to use an in-memory collection of books rather than writing to a file or database.
-
-
