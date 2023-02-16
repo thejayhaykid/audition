@@ -19,7 +19,14 @@ namespace dotnet_audition
 
             var len = num.Length;
             var c = 0;
-            var sb = new char[len];
+            var arrayLength = len + (len / 3);
+
+            if (len % 3 == 0)
+            {
+                arrayLength--;
+            }
+
+            var sb = new char[arrayLength];
             
             for (var i = 0; i < len; i++) 
             {
